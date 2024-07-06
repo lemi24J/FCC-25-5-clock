@@ -1,0 +1,26 @@
+.clock {
+    background: #8b8cdc;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .setters {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: space-around;
+  }
+  button {
+    margin: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #8b8cdc;
+    color: white;
+    cursor: pointer;
+    font-size: 40px;
+  }
