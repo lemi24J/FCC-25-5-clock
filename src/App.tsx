@@ -16,7 +16,7 @@ function App() {
   const [sessionTime, setSessionTime] = useState(defaultSessionTime);
   const [displayState, setDisplayState] = useState<DisplayState>({
     time: sessionTime,
-    timeType: "Session",
+    timeType: "session",
     timerRunning: false,
   });
 
@@ -49,7 +49,7 @@ useEffect(() => { if (displayState.time === 0) {
    setSessionTime(defaultSessionTime);
    setDisplayState({
     time:defaultSessionTime,
-    timeType: "Session",
+    timeType: "session",
     timerRunning: false,
    });
    const audio = document.getElementById("beep") as HTMLAudioElement;
@@ -78,7 +78,7 @@ useEffect(() => { if (displayState.time === 0) {
     setSessionTime(time);
     setDisplayState({
       time: time,
-      timeType: "Session",
+      timeType: "session",
       timerRunning: false,
     });
   }
